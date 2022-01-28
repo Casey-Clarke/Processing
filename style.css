@@ -1,0 +1,26 @@
+div {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+canvas {
+  display: block;
+  border-style: solid;
+  border-color: black;
+ 
+}
+button {
+  padding: 7px 15px;
+  font-size: 24px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+}
+
+button:hover {background-color: #3e8e41}
